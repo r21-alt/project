@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>רשימת מוצרים</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            background: white;
+            width: 220px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .product h2 {
+            margin: 10px 0;
+        }
+
+        .price {
+            color: #16833b;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>רשימת מוצרים</h1>
+
+    <div class="products">
+
+        <div class="product">
+            <h2>מחשב נייד</h2>
+            <p>מחשב נייד חזק ומהיר</p>
+            <p class="price">₪3,500</p>
+            <button>הוסף לסל</button>
+        </div>
+
+        <div class="product">
+            <h2>טלפון</h2>
+            <p>טלפון חכם מדגם חדש</p>
+            <p class="price">₪2,500</p>
+            <button>הוסף לסל</button>
+        </div>
+
+        <div class="product">
+            <h2>אוזניות</h2>
+            <p>אוזניות אלחוטיות</p>
+            <p class="price">₪350</p>
+            <button>הוסף לסל</button>
+        </div>
+
+        <div class="product">
+            <h2>מקלדת</h2>
+            <p>מקלדת מכנית איכותית</p>
+            <p class="price">₪280</p>
+            <button>הוסף לסל</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
